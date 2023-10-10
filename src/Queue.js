@@ -37,6 +37,10 @@ class Queue {
     }
     return node.value;
   }
+  
+  isEmpty() {
+    return this.first === null;
+  }
 }
 
 module.exports = Queue;
